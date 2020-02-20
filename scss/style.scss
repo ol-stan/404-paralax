@@ -1,0 +1,136 @@
+body {
+    text-decoration: none;
+    width: 100%;
+    height: 100vh;
+    background: #137cd8;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #137cd8 0%, #e09335 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #137cd8 0%, #e09335 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #137cd8 0%, #e09335 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#137cd8', endColorstr='#e09335', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.container {
+    position: absolute;
+    // top: 10%;
+    // left: 10%;
+    // right: 10%;
+    // bottom: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/for404bg72.png'), #2c3e50;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 14vw;
+    color: #fff;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.description {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #111;
+    background: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.text-block {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.link-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #2980b9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    border-bottom: 4px solid #3498db;
+    opacity: 1;
+    font-size: 1.3em;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
